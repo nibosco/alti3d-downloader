@@ -1,0 +1,1 @@
+version: '3'services:  alti3d-dl:    build:      context: .    container_name: swiss-alti3d-dl    image: swiss-alti3d    volumes:      - type: bind        source: ${DIR}        target: /alti3d-dl    restart: always   

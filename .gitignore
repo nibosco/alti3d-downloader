@@ -1,0 +1,8 @@
+#Ignore all .tif files and the resulating empty folders
+**/*.tif
+**/
+!/input
+
+.DS_Store
+.env
+

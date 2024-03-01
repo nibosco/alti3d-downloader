@@ -1,0 +1,5 @@
+#Ignore all .tif files
+**/*.tif
+
+#misc
+.DS_Store
